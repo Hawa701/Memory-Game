@@ -89,16 +89,20 @@ body {
 .card .face.front-face {
   transform: rotateY(-180deg);
 }
+.face.front-face img {
+  width: 100%;
+  height: 100%;
+}
 .card .face.back-face {
   font-size: 2rem;
   font-weight: 600;
 }
 
-.card:hover .back-face {
+.card.flipped .back-face {
   transform: rotateY(180deg);
 }
 
-.card:hover .front-face {
+.card.flipped .front-face {
   transform: rotateY(0);
 }
 
@@ -117,6 +121,33 @@ body {
   border-radius: 6px;
   background: var(--text-color);
   color: var(--secondary-color);
+}
+
+/* You won page */
+.win-page {
+  display: none;
+}
+
+.result,
+.button {
+  width: 100%;
+  text-align: center;
+}
+
+.result h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 2.2rem;
+}
+
+.button button {
+  cursor: pointer;
+  width: 11rem;
+  height: 4rem;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 6px;
+  margin-top: 2.2rem;
 }
 
 button:active {

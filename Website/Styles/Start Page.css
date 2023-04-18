@@ -47,9 +47,6 @@ body {
   margin-top: 2.2rem;
 }
 
-.button button a {
-  text-decoration: none;
-  width: 100%;
-  height: 100%;
-  color: var(--text-color);
+button:active {
+  transform: scale(0.9);
 }

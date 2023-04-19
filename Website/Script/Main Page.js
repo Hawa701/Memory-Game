@@ -154,7 +154,7 @@ var stopBtn = document.getElementById("stopBtn");
 
 stopBtn.addEventListener("click", function () {
   stopGame();
-  window.location.assign("/Website/HTML/index.html");
+  window.location.assign("/index.html");
 });
 
 function stopGame() {

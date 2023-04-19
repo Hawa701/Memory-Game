@@ -17,7 +17,7 @@ const totalSecond = document.getElementById("total-sec");
 const totalMinute = document.getElementById("total-min");
 const totalMoves = document.getElementById("total-moves");
 
-var interval = setInterval(startTimer, 100); //timer
+var interval = setInterval(startTimer, 1000); //timer
 
 let firstCardValue;
 
@@ -154,7 +154,7 @@ var stopBtn = document.getElementById("stopBtn");
 
 stopBtn.addEventListener("click", function () {
   stopGame();
-  window.location.assign("/Website/HTML/Start Page.html");
+  window.location.assign("/Website/HTML/index.html");
 });
 
 function stopGame() {

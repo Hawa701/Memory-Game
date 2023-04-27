@@ -169,25 +169,25 @@ button:active {
 
 @media (max-width: 800px) {
   .board {
-    width: 45%;
+    width: 58%;
   }
 }
 
 @media (max-width: 718px) {
   .board {
-    width: 50%;
+    width: 65%;
   }
 }
 
 @media (max-width: 650px) {
   .board {
-    width: 55%;
+    width: 70%;
   }
 }
 
 @media (max-width: 580px) {
   .board {
-    width: 60%;
+    width: 78%;
   }
 
   .board .stats {
@@ -198,42 +198,12 @@ button:active {
 
 @media (max-width: 510px) {
   .board {
-    width: 65%;
+    width: 83%;
   }
 }
 
 @media (max-width: 450px) {
   .board {
-    width: 70%;
-  }
-}
-
-@media (max-width: 400px) {
-  .board {
-    width: 75%;
-  }
-}
-
-@media (max-width: 360px) {
-  .board {
-    width: 80%;
-  }
-}
-
-@media (max-width: 300px) {
-  .board {
-    width: 85%;
-  }
-}
-
-@media (max-width: 250px) {
-  .board {
     width: 90%;
-  }
-}
-
-@media (max-width: 220px) {
-  .board {
-    width: 95%;
   }
 }

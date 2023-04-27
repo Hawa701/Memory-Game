@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80vw;
+  width: 100%;
   height: 90%;
 }
 
@@ -32,7 +32,7 @@ body {
   flex-direction: column;
   justify-content: left;
   height: 100%;
-  width: 40%;
+  width: 30%;
   padding: 2rem 1.5rem;
   border-radius: 8px;
   background: var(--secondary-color);
@@ -152,4 +152,88 @@ body {
 
 button:active {
   transform: scale(0.9);
+}
+
+/* Responsiveness */
+@media (max-width: 1000px) {
+  .board {
+    width: 35%;
+  }
+}
+
+@media (max-width: 900px) {
+  .board {
+    width: 40%;
+  }
+}
+
+@media (max-width: 800px) {
+  .board {
+    width: 45%;
+  }
+}
+
+@media (max-width: 718px) {
+  .board {
+    width: 50%;
+  }
+}
+
+@media (max-width: 650px) {
+  .board {
+    width: 55%;
+  }
+}
+
+@media (max-width: 580px) {
+  .board {
+    width: 60%;
+  }
+
+  .board .stats {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 510px) {
+  .board {
+    width: 65%;
+  }
+}
+
+@media (max-width: 450px) {
+  .board {
+    width: 70%;
+  }
+}
+
+@media (max-width: 400px) {
+  .board {
+    width: 75%;
+  }
+}
+
+@media (max-width: 360px) {
+  .board {
+    width: 80%;
+  }
+}
+
+@media (max-width: 300px) {
+  .board {
+    width: 85%;
+  }
+}
+
+@media (max-width: 250px) {
+  .board {
+    width: 90%;
+  }
+}
+
+@media (max-width: 220px) {
+  .board {
+    width: 95%;
+  }
 }
